@@ -34,7 +34,7 @@ function logDonation(amount, source)
     const date = new Date().toLocaleString("en-BD", { timezone: "Asia/Dhaka"});
 
     const donMess = document.createElement("div");
-    donMess.classList.add('bg-base-100','shadow-lg', 'p-4', 'rounded', 'mb-4');
+    donMess.classList.add('bg-base-100','shadow-lg', 'p-4', 'rounded', 'mb-4', 'font-bold');
     donMess.textContent = `${amount} Taka is donated for famine-2024 at ${source} on ${date}`;
 
     transCon.appendChild(donMess);

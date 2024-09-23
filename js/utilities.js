@@ -22,8 +22,6 @@ function upDon(inputId, balId)
 }
 
 //Button Event Listeners
-document.addEventListener("DOMContentLoaded", function()
-{
 document.getElementById("noa-don-btn").onclick = function(){
     upDon("noa-input-don", "noa-bal");
 };
@@ -33,7 +31,7 @@ document.getElementById("feni-don-btn").onclick = function(){
 document.getElementById("quota-don-btn").onclick = function(){
     upDon("quota-input-don", "quota-bal");
 };
-});
+
 
 function showSectionById(id)
 {
