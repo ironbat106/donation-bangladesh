@@ -48,5 +48,3 @@ document.getElementById('btn-show-dom').addEventListener('click', function(){
 document.getElementById('btn-show-his').addEventListener('click', function(){
     showSectionById('trans-sec');
 })
-
-
