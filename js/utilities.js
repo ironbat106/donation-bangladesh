@@ -1,7 +1,3 @@
-//Get Current balance
-const currBalEle = document.getElementById("cur-bal");
-let currBal = parseInt (currBalEle.textContent);
-
 //Update Donation
 function upDon(inputId, balId)
 {
@@ -38,4 +34,21 @@ document.getElementById("quota-don-btn").onclick = function(){
     upDon("quota-input-don", "quota-bal");
 };
 });
+
+function showSectionById(id)
+{
+    document.getElementById ('don-form').classList.add('hidden');
+    document.getElementById ('trans-sec').classList.add('hidden');
+
+    document.getElementById(id).classList.remove('hidden'); 
+
+}
+
+document.getElementById('btn-show-dom').addEventListener('click', function(){
+    showSectionById('don-form');
+})
+document.getElementById('btn-show-his').addEventListener('click', function(){
+    showSectionById('trans-sec');
+})
+
 
