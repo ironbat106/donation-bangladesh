@@ -5,3 +5,4 @@ document.getElementById('btn-show-don').addEventListener('click', function(){
 document.getElementById('btn-show-his').addEventListener('click', function(){
     showSectionById('trans-sec');
 })
+
