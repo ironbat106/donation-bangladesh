@@ -42,6 +42,7 @@ To run this project locally, follow these steps:
 2. Enter the donation amount for a specific cause and submit the form.
 3. View your donation history by clicking the "Transaction History" button.
 4. The balance and transaction history will update automatically based on your donation.
+5. Click on the "Blog" icon to get to the Important FAQ page.
 
 ## Project Structure
 
